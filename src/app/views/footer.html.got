@@ -1,15 +1,3 @@
-<p>
-  <a href="https://twitter.com/cryptojournal">Twitter</a> |
-  <a href="https://github.com/bitcubate/cryptojournal">Source on Github</a> | 
-  <a href="http://fragmenta.eu">Made with Fragmenta</a> |
-  <a href='javascript:window.location="https://cryptojournal.cf/stories/create?u="+encodeURIComponent(document.location)+"&n="+encodeURIComponent(document.title)+"&s="+encodeURIComponent(document.querySelector("meta[name=description]").content)'>Bookmarklet (drag to bookmarks)</a>
-      {{if .meta_rss }} |
-      <a href="{{ .meta_rss }}">RSS</a>
-      {{ end }}
-</p>
-<p>
-  This site uses <a href="https://golang.org">Go</a>, hosted on a Google Compute Engine instance {{  .meta_foot }}.
-</p>
 
 
   <div class="mdl-mega-footer__middle-section">
