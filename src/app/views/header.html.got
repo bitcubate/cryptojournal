@@ -1,44 +1,64 @@
-<!-- Simple header with scrollable tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
+<!-- Uses a header that contracts as the page scrolls down. -->
+<style>
+.demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+</style>
+
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--waterfall">
+    <!-- Top row, always visible -->
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Title</span>
+      <span class="mdl-layout-title"><a href="/">CJ</a></span>
+      <div class="mdl-layout-spacer"></div>
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <label class="mdl-button mdl-js-button mdl-button--icon"
+               for="waterfall-exp">
+          <i class="material-icons">search</i>
+        </label>
+        <div class="mdl-textfield__expandable-holder">
+          <input class="mdl-textfield__input" type="text" name="sample"
+                 id="waterfall-exp">
+        </div>
+      </div>
     </div>
-    <!-- Tabs -->
-    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
-      <a href="#scroll-tab-2" class="mdl-layout__tab">Tab 2</a>
-      <a href="#scroll-tab-3" class="mdl-layout__tab">Tab 3</a>
-      <a href="#scroll-tab-4" class="mdl-layout__tab">Tab 4</a>
-      <a href="#scroll-tab-5" class="mdl-layout__tab">Tab 5</a>
-      <a href="#scroll-tab-6" class="mdl-layout__tab">Tab 6</a>
+    <!-- Bottom row, not visible on scroll -->
+    <div class="mdl-layout__header-row">
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Title</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="/stories/code">Code</a>
+      <a class="mdl-navigation__link" href="/stories?q=Video:">Videos</a>
+      <a class="mdl-navigation__link" href="/stories?q=Hiring:">Jobs</a>
+      <a class="mdl-navigation__link" href="/stories?q=Event:">Events</a>
+      <a class="mdl-navigation__link" href="/stories?q=Book:">Books</a>
+      <a class="mdl-navigation__link" href="/stories?q=Cast:">Casts</a>
+      <a class="mdl-navigation__link" href="/stories?q=Show:">Show</a>
+      <a class="mdl-navigation__link" href="/stories?q=ICO:">ICO's</a>
+      <a class="mdl-navigation__link" href="/stories?q=WP:">Whitepapers</a>
+      <a class="mdl-navigation__link" href="/stories?q=ANN:">ANN</a>
+      <a class="mdl-navigation__link" href="/stories">New</a>
+      <a class="mdl-navigation__link" href="/comments">Talk</a>
+      <a class="mdl-navigation__link" href="/stories/upvoted">Upvoted</a>
+    </nav>
   </div>
   <main class="mdl-layout__content">
-    <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-2">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-4">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-5">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
-    <section class="mdl-layout__tab-panel" id="scroll-tab-6">
-      <div class="page-content"><!-- Your content goes here --></div>
-    </section>
+    <div class="page-content"><!-- Your content goes here --></div>
   </main>
 </div>
+
 
 
 
@@ -94,7 +114,6 @@
     <li><a title="Newest articles about the Cryptocurrency and Blockchain World" href="/stories">New</a></li>
     <li><a title="A place to show CJ your stuff" href="/stories?q=Show:">Show</a></li>
     <li><a title="Stories you have upvoted in the past" href="/stories/upvoted">Upvoted</a></li>
-    
     <li><a href="/comments">Talk</a></li>
 
    
