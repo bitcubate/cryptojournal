@@ -15,28 +15,38 @@
 
 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
   <div class="mdl-card__title">
-    <h2 class="mdl-card__title-text">Welcome</h2>
+    <h2 class="mdl-card__title-text">Register to Vote and Submit
+</h2>
   </div>
   <div class="mdl-card__supporting-text">
 
     {{ if .error }}
-<section class="notice">
   {{ if eq .error "duplicate_name"}}
   <p>This username is already taken, please choose another</p>
   {{ end }}
   {{ if eq .error "duplicate_email"}}
   <p>This email is already in use, please send a password reminder.</p>
   {{ end }}
-</section>
 {{ end }}
-<section class="narrow">
 <form method="post" class="resource-update-form" action="/users/create">
-    <h1>Register to vote and submit</h1>
     <p>Already have a username? You can login <a href="/users/login">here</a>.</p>
-    {{ field "Name" "name" .user.Name }}
-    {{ field "Email (optional)" "email" .user.Email }}
-    {{ field "Password" "password" "" "password" "type=password" }}
+   
   
+
+  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" id="name" name="name">
+    <label class="mdl-textfield__label" for="name">name</label>
+  </div>
+
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="text" name="email" id="email">
+    <label class="mdl-textfield__label" for="email">email</label>
+  </div>
+
+    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+    <input class="mdl-textfield__input" type="password" name="password" id="password">
+    <label class="mdl-textfield__label" for="password">password</label>
+  </div>
 
 
   </div>
