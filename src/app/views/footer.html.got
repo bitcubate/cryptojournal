@@ -8,5 +8,5 @@
       {{ end }}
 </p>
 <p>
-  This site uses <a href="https://golang.org">Go</a>, hosted on a Google Compute Engine instance. Donate BTC or ETH <a href=""></a>. {{  .meta_foot }}.
+  This site uses <a href="https://golang.org">Go</a>, hosted on a Google Compute Engine instance. Donate <a href="https://blockchain.info/address/15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC 15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF</a> or <a href="https://etherscan.io/address/0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">ETH 0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af</a>. {{  .meta_foot }}.
 </p>
