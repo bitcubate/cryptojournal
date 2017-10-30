@@ -14,6 +14,20 @@
       <div class="mdl-layout-spacer"></div>
 
 
+
+<ul>
+    
+   
+    {{ if .currentUser.Anon }}
+     <li class="submit"><a class="register" href="/users/create">Sign up</a></li>
+     <li class="submit"><a class="register" href="/users/login">Log in</a></li>
+    {{ else if not .hideSubmit }}
+     <li class="submit"><a href="/stories/create" title="Submit links about the Cryptocurrency and Blockchain World">Submit</a></li>
+    {{ end }}
+    
+    
+  </ul>
+
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
         <label class="mdl-button mdl-js-button mdl-button--icon"
@@ -29,6 +43,7 @@
 
         </div>
       </div>
+
 
 
 
@@ -55,6 +70,10 @@
       <a class="mdl-navigation__link" href="/stories/upvoted">Upvoted</a>
       </nav>
     </div>
+
+
+
+
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title"><a href="/">CJ</a></span>
@@ -75,11 +94,7 @@
     </nav>
   </div>
   <main class="mdl-layout__content">
-    <div class="page-content"><!-- Your content goes here --></div>
-  </main>
-</div>
-
-
+    <div class="page-content"><!-- Your content goes here -->
 
 
 
@@ -113,29 +128,7 @@
   
   </ul>
   
-  <ul class="sections">
-    <li class="long"><a href="/">Crypto Journal</a></li>
-    <li><a title="Crypto Code Packages" href="/stories/code">Code</a></li>
-    <li><a title="Videos about the Cryptocurrency and Blockchain World" href="/stories?q=Video:">Videos</a></li>
-    <li><a title="Crypto Jobs" href="/stories?q=Hiring:">Jobs</a></li>
-    <li><a title="Crypto Events" href="/stories?q=Event:">Events</a></li>
-    <li><a title="Books about Crypto" href="/stories?q=Book:">Books</a></li>
-    <li><a title="Podcasts and Screencasts about the Crypto World" href="/stories?q=Cast:">Casts</a></li>
-    <li><a title="Newest articles about the Cryptocurrency and Blockchain World" href="/stories">New</a></li>
-    <li><a title="A place to show CJ your stuff" href="/stories?q=Show:">Show</a></li>
-    <li><a title="Stories you have upvoted in the past" href="/stories/upvoted">Upvoted</a></li>
-    <li><a href="/comments">Talk</a></li>
-
-   
-    {{ if .currentUser.Anon }}
-     <li class="submit"><a class="register" href="/users/create">Sign up</a></li>
-     <li class="submit"><a class="register" href="/users/login">Log in</a></li>
-    {{ else if not .hideSubmit }}
-     <li class="submit"><a href="/stories/create" title="Submit links about the Cryptocurrency and Blockchain World">Submit</a></li>
-    {{ end }}
-    
-    
-  </ul>
+  
   
   {{ if .tags }}
   <ul class="tags">
@@ -149,3 +142,11 @@
 </nav>
   
   
+
+
+
+
+</div>
+  </main>
+</div>
+
