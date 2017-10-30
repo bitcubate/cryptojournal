@@ -4,7 +4,7 @@ package stories
 import (
 	"testing"
 
-	"github.com/kennygrant/gohackernews/src/lib/resource"
+	"github.com/bitcubate/cryptojournal/src/lib/resource"
 )
 
 var testName = "foo"

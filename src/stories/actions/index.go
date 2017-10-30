@@ -11,9 +11,9 @@ import (
 	"github.com/fragmenta/server/config"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/lib/stats"
-	"github.com/kennygrant/gohackernews/src/stories"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/lib/stats"
+	"github.com/bitcubate/cryptojournal/src/stories"
 )
 
 const listLimit = 50
@@ -95,7 +95,7 @@ func HandleIndex(w http.ResponseWriter, r *http.Request) error {
 	windowTitle := config.Get("meta_title")
 	switch filter {
 	case "Video:":
-		windowTitle = "Golang Videos"
+		windowTitle = "Crypto Videos"
 	}
 
 	// Render the template

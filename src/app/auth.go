@@ -5,9 +5,9 @@ import (
 	"github.com/fragmenta/auth/can"
 	"github.com/fragmenta/server/config"
 
-	"github.com/kennygrant/gohackernews/src/comments"
-	"github.com/kennygrant/gohackernews/src/stories"
-	"github.com/kennygrant/gohackernews/src/users"
+	"github.com/bitcubate/cryptojournal/src/comments"
+	"github.com/bitcubate/cryptojournal/src/stories"
+	"github.com/bitcubate/cryptojournal/src/users"
 )
 
 // SetupAuth sets up the auth pkg and authorisation for users

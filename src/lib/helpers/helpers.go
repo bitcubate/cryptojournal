@@ -9,7 +9,7 @@ import (
 	"github.com/fragmenta/server/config"
 	"github.com/fragmenta/view/helpers"
 
-	"github.com/kennygrant/gohackernews/src/lib/text"
+	"github.com/bitcubate/cryptojournal/src/lib/text"
 )
 
 // RootURL returns the root url

@@ -6,7 +6,7 @@ import (
 	"github.com/sendgrid/sendgrid-go"
 	"github.com/sendgrid/sendgrid-go/helpers/mail"
 
-	m "github.com/kennygrant/gohackernews/src/lib/mail"
+	m "github.com/bitcubate/cryptojournal/src/lib/mail"
 )
 
 // Service sends mail via sendgrid and conforms to mail.Service.

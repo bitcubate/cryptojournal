@@ -7,8 +7,8 @@ import (
 	"github.com/fragmenta/mux"
 	"github.com/fragmenta/server"
 
-	"github.com/kennygrant/gohackernews/src/comments"
-	"github.com/kennygrant/gohackernews/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/comments"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
 )
 
 // HandleDestroy responds to /comments/n/destroy by deleting the comment.

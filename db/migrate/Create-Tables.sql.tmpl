@@ -1,4 +1,4 @@
-/* Setup tables for gohackernews */
+/* Setup tables for cryptojournal */
 CREATE TABLE fragmenta_metadata (
 id SERIAL NOT NULL,
 updated_at timestamp,
@@ -71,10 +71,10 @@ password_reset_token text,
 points integer
 );
 
-ALTER TABLE fragmenta_metadata OWNER TO gohackernews_server;
-ALTER TABLE comments OWNER TO gohackernews_server;
-ALTER TABLE flags OWNER TO gohackernews_server;
-ALTER TABLE users OWNER TO gohackernews_server;
-ALTER TABLE votes OWNER TO gohackernews_server;
-ALTER TABLE stories OWNER TO gohackernews_server;
+ALTER TABLE fragmenta_metadata OWNER TO cryptojournal_server;
+ALTER TABLE comments OWNER TO cryptojournal_server;
+ALTER TABLE flags OWNER TO cryptojournal_server;
+ALTER TABLE users OWNER TO cryptojournal_server;
+ALTER TABLE votes OWNER TO cryptojournal_server;
+ALTER TABLE stories OWNER TO cryptojournal_server;
 grant all on schema public to public;

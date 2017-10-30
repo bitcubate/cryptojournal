@@ -5,7 +5,7 @@ import (
 
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/lib/helpers"
+	"github.com/bitcubate/cryptojournal/src/lib/helpers"
 )
 
 // TestMail tests that mail formats properly in dev mode

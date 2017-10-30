@@ -1,12 +1,12 @@
 <p>
-  <a href="https://twitter.com/golangnews">Twitter</a> |
-  <a href="https://github.com/kennygrant/gohackernews">Source on Github</a> | 
+  <a href="https://twitter.com/cryptojournal">Twitter</a> |
+  <a href="https://github.com/bitcubate/cryptojournal">Source on Github</a> | 
   <a href="http://fragmenta.eu">Made with Fragmenta</a> |
-  <a href='javascript:window.location="https://golangnews.com/stories/create?u="+encodeURIComponent(document.location)+"&n="+encodeURIComponent(document.title)+"&s="+encodeURIComponent(document.querySelector("meta[name=description]").content)'>Bookmarklet (drag to bookmarks)</a>
+  <a href='javascript:window.location="https://cryptojournal.cf/stories/create?u="+encodeURIComponent(document.location)+"&n="+encodeURIComponent(document.title)+"&s="+encodeURIComponent(document.querySelector("meta[name=description]").content)'>Bookmarklet (drag to bookmarks)</a>
       {{if .meta_rss }} |
       <a href="{{ .meta_rss }}">RSS</a>
       {{ end }}
 </p>
 <p>
-  This site uses <a href="https://golang.org">Go</a>, hosted on a $5 CoreOS instance on <a href="https://m.do.co/c/45dc49ca8623">Digital Ocean</a>. The golangnews.com domain was kindly donated by <a href="https://github.com/Unknwon">@Unknwon</a>. {{  .meta_foot }}.
+  This site uses <a href="https://golang.org">Go</a>, hosted on a Google Compute Engine instance. Donate BTC or ETH <a href=""></a>. {{  .meta_foot }}.
 </p>

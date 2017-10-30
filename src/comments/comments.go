@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/kennygrant/gohackernews/src/lib/resource"
-	"github.com/kennygrant/gohackernews/src/lib/status"
+	"github.com/bitcubate/cryptojournal/src/lib/resource"
+	"github.com/bitcubate/cryptojournal/src/lib/status"
 )
 
 // Comment handles saving and retreiving comments from the database

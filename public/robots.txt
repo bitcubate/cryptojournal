@@ -3,4 +3,4 @@
 # User-Agent: *
 # Disallow: /
 
-Sitemap: https://golangnews.com/sitemap.xml
+Sitemap: https://cryptojournal.cf/sitemap.xml

@@ -8,8 +8,8 @@ import (
 
 	"github.com/fragmenta/model/file"
 
-	"github.com/kennygrant/gohackernews/src/lib/resource"
-	"github.com/kennygrant/gohackernews/src/lib/status"
+	"github.com/bitcubate/cryptojournal/src/lib/resource"
+	"github.com/bitcubate/cryptojournal/src/lib/status"
 )
 
 // Story handles saving and retreiving stories from the database

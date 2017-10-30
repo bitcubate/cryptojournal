@@ -1,25 +1,25 @@
-<nav alt="Golang News, curated links about the Go programming language">
+<nav alt="Crypto Journal, curated links about the Cryptocurrency and Blockchain World">
   <ul class="title">
   
-    <li class="user_badge" alt="Google Go Links">
+    <li class="user_badge" alt="Crypto Links">
       {{ if and .currentUser (not .currentUser.Anon) }}
         <a href="/users/{{.currentUser.ID}}">{{.currentUser.Name}} ({{.currentUser.Points}}) {{ if .userCount}} - {{.userCount}} users online{{end}}</a>
       {{ else }}
-        <h3 class="hidden">Golang News, the latest news about the Go programming language</h3>
-        <span class="short">Golang News {{ if .userCount}}- {{.userCount}} users online{{end}}</span>
+        <h3 class="hidden">Crypto Journal, the latest news about the Cryptocurrency and Blockchain World</h3>
+        <span class="short">Crypto Journal {{ if .userCount}}- {{.userCount}} users online{{end}}</span>
         <span class="long">The latest news about Go programming {{ if .userCount}} - {{.userCount}} users online{{end}}</span>
       {{ end }}
     </li>
         
     <li class="site">
-      <a href="/" title="Golang News, Curated links about the Go programming language">
-        <span class=" logo" alt="golang newsletter and news articles about the go programming language from google">GN</span>
+      <a href="/" title="Crypto Journal, Curated links about the Cryptocurrency and Blockchain World">
+        <span class=" logo" alt="Crypto Journal News letter and news articles about the Cryptocurrency and Blockchain World">CJ</span>
       </a>
       
     </li>
 
     <li class="search">
-    <a class="show" href="#" data-show=".search_form" title="Search for links about the Go programming language">
+    <a class="show" href="#" data-show=".search_form" title="Search for links about the Cryptocurrency and Blockchain World">
     <img src="/assets/images/app/search.png" class="search_image">
     </a>
     </li>
@@ -33,14 +33,14 @@
   </ul>
   
   <ul class="sections">
-    <li class="long"><a href="/">Golang News</a></li>
-    <li><a title="Golang Code Packages" href="/stories/code">Code</a></li>
-    <li><a title="Videos about the Go programming language" href="/stories?q=Video:">Videos</a></li>
+    <li class="long"><a href="/">Crypto Journal</a></li>
+    <li><a title="Crypto Code Packages" href="/stories/code">Code</a></li>
+    <li><a title="Videos about the Cryptocurrency and Blockchain World" href="/stories?q=Video:">Videos</a></li>
     <li><a title="Jobs for Go programmers" href="/stories?q=Hiring:">Jobs</a></li>
     <li><a title="Events for Go programmers" href="/stories?q=Event:">Events</a></li>
     <li><a title="Books for Go programmers" href="/stories?q=Book:">Books</a></li>
     <li><a title="Podcasts and Screencasts about Go" href="/stories?q=Cast:">Casts</a></li>
-    <li><a title="Newest articles about the Go programming language" href="/stories">New</a></li>
+    <li><a title="Newest articles about the Cryptocurrency and Blockchain World" href="/stories">New</a></li>
     <li><a title="A place to show GN your stuff" href="/stories?q=Show:">Show</a></li>
     <li><a title="Stories you have upvoted in the past" href="/stories/upvoted">Upvoted</a></li>
     
@@ -51,7 +51,7 @@
      <li class="submit"><a class="register" href="/users/create">Sign up</a></li>
      <li class="submit"><a class="register" href="/users/login">Log in</a></li>
     {{ else if not .hideSubmit }}
-     <li class="submit"><a href="/stories/create" title="Submit links about the Go programming language">Submit</a></li>
+     <li class="submit"><a href="/stories/create" title="Submit links about the Cryptocurrency and Blockchain World">Submit</a></li>
     {{ end }}
     
     

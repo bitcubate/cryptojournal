@@ -10,9 +10,9 @@ import (
 	"github.com/fragmenta/server/config"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/lib/stats"
-	"github.com/kennygrant/gohackernews/src/stories"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/lib/stats"
+	"github.com/bitcubate/cryptojournal/src/stories"
 )
 
 // HandleListUpvoted displays a list of stories the user has upvoted in the past

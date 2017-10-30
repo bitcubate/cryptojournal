@@ -11,9 +11,9 @@ import (
 	"github.com/fragmenta/server/log"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/lib/status"
-	"github.com/kennygrant/gohackernews/src/users"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/lib/status"
+	"github.com/bitcubate/cryptojournal/src/users"
 )
 
 // HandleCreateShow serves the create form via GET for users.

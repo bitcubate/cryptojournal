@@ -8,8 +8,8 @@ import (
 	"github.com/fragmenta/server/config"
 	"github.com/fragmenta/server/log"
 
-	"github.com/kennygrant/gohackernews/src/lib/mail"
-	"github.com/kennygrant/gohackernews/src/lib/mail/adapters/sendgrid"
+	"github.com/bitcubate/cryptojournal/src/lib/mail"
+	"github.com/bitcubate/cryptojournal/src/lib/mail/adapters/sendgrid"
 )
 
 // appAssets holds a reference to our assets for use in asset setup

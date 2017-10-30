@@ -6,7 +6,7 @@ import (
 	"github.com/fragmenta/server"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/stories"
+	"github.com/bitcubate/cryptojournal/src/stories"
 )
 
 // HandleSiteMap renders a site map of top stories

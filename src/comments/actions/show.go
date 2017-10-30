@@ -8,9 +8,9 @@ import (
 	"github.com/fragmenta/server"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/comments"
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/lib/status"
+	"github.com/bitcubate/cryptojournal/src/comments"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/lib/status"
 )
 
 // HandleShow displays a single comment.

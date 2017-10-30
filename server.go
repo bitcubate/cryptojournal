@@ -7,7 +7,7 @@ import (
 	"github.com/fragmenta/server"
 	"github.com/fragmenta/server/config"
 
-	"github.com/kennygrant/gohackernews/src/app"
+	"github.com/bitcubate/cryptojournal/src/app"
 )
 
 // Main entrypoint for the server which performs bootstrap, setup

@@ -10,10 +10,10 @@ import (
 	"github.com/fragmenta/server/config"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/comments"
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/lib/status"
-	"github.com/kennygrant/gohackernews/src/stories"
+	"github.com/bitcubate/cryptojournal/src/comments"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/lib/status"
+	"github.com/bitcubate/cryptojournal/src/stories"
 )
 
 // HandleShow displays a single story.

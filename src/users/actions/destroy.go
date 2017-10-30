@@ -7,8 +7,8 @@ import (
 	"github.com/fragmenta/mux"
 	"github.com/fragmenta/server"
 
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/users"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/users"
 )
 
 // HandleDestroy responds to /users/n/destroy by deleting the user.

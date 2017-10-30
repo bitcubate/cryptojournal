@@ -8,8 +8,8 @@ import (
 	"github.com/fragmenta/server"
 	"github.com/fragmenta/view"
 
-	"github.com/kennygrant/gohackernews/src/lib/session"
-	"github.com/kennygrant/gohackernews/src/users"
+	"github.com/bitcubate/cryptojournal/src/lib/session"
+	"github.com/bitcubate/cryptojournal/src/users"
 )
 
 // HandleIndex displays a list of users.

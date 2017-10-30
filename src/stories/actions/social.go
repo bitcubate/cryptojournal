@@ -9,8 +9,8 @@ import (
 	"github.com/fragmenta/server/config"
 	"github.com/fragmenta/server/log"
 
-	"github.com/kennygrant/gohackernews/src/lib/twitter"
-	"github.com/kennygrant/gohackernews/src/stories"
+	"github.com/bitcubate/cryptojournal/src/lib/twitter"
+	"github.com/bitcubate/cryptojournal/src/stories"
 )
 
 // TweetTopStory tweets the top story
@@ -65,11 +65,11 @@ func TweetStory(story *stories.Story) {
 		url = baseURL + url
 	}
 
-	tweet := fmt.Sprintf("%s #golang %s", story.Name, url)
+	tweet := fmt.Sprintf("%s #cryptojournal %s", story.Name, url)
 
 	// If the tweet will be too long for twitter, use GN url
 	if len(tweet) > 140 {
-		tweet = fmt.Sprintf("%s #golang %s", story.Name, baseURL+story.ShowURL())
+		tweet = fmt.Sprintf("%s #cryptojournal %s", story.Name, baseURL+story.ShowURL())
 	}
 
 	log.Log(log.Values{"message": "stories: sending tweet", "tweet": tweet})

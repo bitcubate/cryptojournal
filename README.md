@@ -1,7 +1,7 @@
-# Golang News
-A responsive news website for links about the Go programming language, written in Go. You can see a this website in action at this link:
+# Crypto Journal
+A responsive news website for links about the Cryptocurrency and Blockchain World, written in Go. You can see a this website in action at this link:
 
-[http://golangnews.com](http://golangnews.com)
+[http://cryptojournal.cf](http://cryptojournal.cf)
 
 ## Gettting Started
 
@@ -9,7 +9,7 @@ The app requires postgresql just now to bootstrap locally (not Mysql). So make s
 
 Go get this app:
 
-    go get -u github.com/kennygrant/gohackernews
+    go get -u github.com/bitcubate/cryptojournal
 
 Then to build and run the server locally, as you'd expect:
 
