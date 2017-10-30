@@ -29,15 +29,24 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="/stories/code">Code</a>
+      <a class="mdl-navigation__link" href="/stories?q=Video:">Videos</a>
+      <a class="mdl-navigation__link" href="/stories?q=Hiring:">Jobs</a>
+      <a class="mdl-navigation__link" href="/stories?q=Event:">Events</a>
+      <a class="mdl-navigation__link" href="/stories?q=Book:">Books</a>
+      <a class="mdl-navigation__link" href="/stories?q=Cast:">Casts</a>
+      <a class="mdl-navigation__link" href="/stories?q=Show:">Show</a>
+      <a class="mdl-navigation__link" href="/stories?q=ICO:">ICO's</a>
+      <a class="mdl-navigation__link" href="/stories?q=WP:">Whitepapers</a>
+      <a class="mdl-navigation__link" href="/stories?q=ANN:">ANN</a>
+      <a class="mdl-navigation__link" href="/stories">New</a>
+      <a class="mdl-navigation__link" href="/comments">Talk</a>
+      <a class="mdl-navigation__link" href="/stories/upvoted">Upvoted</a>
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Title</span>
+    <span class="mdl-layout-title"><a href="/">CJ</a></span>
     <nav class="mdl-navigation">
       <a class="mdl-navigation__link" href="/stories/code">Code</a>
       <a class="mdl-navigation__link" href="/stories?q=Video:">Videos</a>
