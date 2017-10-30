@@ -8,7 +8,7 @@
       {{ end }}
 </p>
 <p>
-  This site uses <a href="https://golang.org">Go</a>, hosted on a Google Compute Engine instance. Donate <a href="https://blockchain.info/address/15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC 15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF</a> or <a href="https://etherscan.io/address/0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">ETH 0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af</a>. {{  .meta_foot }}.
+  This site uses <a href="https://golang.org">Go</a>, hosted on a Google Compute Engine instance {{  .meta_foot }}.
 </p>
 
 
@@ -16,51 +16,64 @@
 
     <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Features</h1>
+      <h1 class="mdl-mega-footer__heading">Stories</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Terms</a></li>
-        <li><a href="#">Partners</a></li>
-        <li><a href="#">Updates</a></li>
+      <li><a href="/stories/code">Code</a></li>
+      <li><a href="/stories?q=Video:">Videos</a></li>
+      <li><a href="/stories?q=Hiring:">Jobs</a></li>
+      <li><a href="/stories?q=Event:">Events</a></li>
+      <li><a href="/stories?q=Book:">Books</a></li>
       </ul>
     </div>
 
     <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Details</h1>
+      <h1 class="mdl-mega-footer__heading">Media</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">Specs</a></li>
-        <li><a href="#">Tools</a></li>
-        <li><a href="#">Resources</a></li>
+      <li><a href="/stories?q=Cast:">Casts</a></li>
+      <li><a href="/stories?q=Show:">Show</a></li>
+      <li><a href="/stories?q=ICO:">ICO's</a></li>
+      <li><a href="/stories?q=WP:">Whitepapers</a></li>
+
       </ul>
     </div>
 
     <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">Technology</h1>
+      <h1 class="mdl-mega-footer__heading">Latest</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">How it works</a></li>
-        <li><a href="#">Patterns</a></li>
-        <li><a href="#">Usage</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contracts</a></li>
+      <li><a href="/stories?q=ANN:">ANN</a></li>
+      <li><a href="/stories">New</a></li>
+      <li><a href="/comments">Talk</a></li>
+      <li><a href="/stories/upvoted">Upvoted</a></li>
+
+
+
+
+
+
+
+
+
+
       </ul>
     </div>
 
     <div class="mdl-mega-footer__drop-down-section">
       <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-      <h1 class="mdl-mega-footer__heading">FAQ</h1>
+      <h1 class="mdl-mega-footer__heading">Donate</h1>
       <ul class="mdl-mega-footer__link-list">
-        <li><a href="#">Questions</a></li>
-        <li><a href="#">Answers</a></li>
-        <li><a href="#">Contact us</a></li>
+        <li><a href="https://blockchain.info/address/15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC</a></li>
+        <li><a href="https://etherscan.io/address/0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">ETH</a></li>
+        <li><a href="#">Altcoins</a></li>
+
       </ul>
     </div>
 
   </div>
 
   <div class="mdl-mega-footer__bottom-section">
-    <div class="mdl-logo">Title</div>
+    <div class="mdl-logo">cryptojournal</div>
     <ul class="mdl-mega-footer__link-list">
       <li><a href="#">Help</a></li>
       <li><a href="#">Privacy & Terms</a></li>
