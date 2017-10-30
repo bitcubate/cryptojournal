@@ -15,18 +15,11 @@
 
 
 
-<ul>
     
    
-    {{ if .currentUser.Anon }}
-     <li class="submit"><a class="register" href="/users/create">Sign up</a></li>
-     <li class="submit"><a class="register" href="/users/login">Log in</a></li>
-    {{ else if not .hideSubmit }}
-     <li class="submit"><a href="/stories/create" title="Submit links about the Cryptocurrency and Blockchain World">Submit</a></li>
-    {{ end }}
+
     
     
-  </ul>
 
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
@@ -78,16 +71,20 @@
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title"><a href="/">CJ</a></span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="/stories/code">Code</a>
-      <a class="mdl-navigation__link" href="/stories?q=Video:">Videos</a>
-      <a class="mdl-navigation__link" href="/stories?q=Hiring:">Jobs</a>
-      <a class="mdl-navigation__link" href="/stories?q=Event:">Events</a>
-      <a class="mdl-navigation__link" href="/stories?q=Book:">Books</a>
-      <a class="mdl-navigation__link" href="/stories?q=Cast:">Casts</a>
-      <a class="mdl-navigation__link" href="/stories?q=Show:">Show</a>
-      <a class="mdl-navigation__link" href="/stories?q=ICO:">ICO's</a>
-      <a class="mdl-navigation__link" href="/stories?q=WP:">Whitepapers</a>
-      <a class="mdl-navigation__link" href="/stories?q=ANN:">ANN</a>
+
+
+    {{ if .currentUser.Anon }}
+     <a class="mdl-navigation__link" href="/users/create">Sign up</a>
+     <a class="mdl-navigation__link" href="/users/login">Log in</a>
+    {{ else if not .hideSubmit }}
+     <a class="mdl-navigation__link" href="/stories/create" title="Submit links about the Cryptocurrency and Blockchain World">Submit</a>
+    {{ end }}
+
+
+      <a class="mdl-navigation__link" href="https://blockchain.info/address/15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">Donate BTC</a>
+      <a class="mdl-navigation__link" href="https://etherscan.io/address/0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">Donate ETH</a>
+      <a class="mdl-navigation__link" href="/stories">Donate Altcoins</a>
+
       <a class="mdl-navigation__link" href="/stories">New</a>
       <a class="mdl-navigation__link" href="/comments">Talk</a>
       <a class="mdl-navigation__link" href="/stories/upvoted">Upvoted</a>
