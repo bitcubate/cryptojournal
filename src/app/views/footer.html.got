@@ -1,5 +1,6 @@
 
 
+
   <div class="mdl-mega-footer__middle-section">
 
     <div class="mdl-mega-footer__drop-down-section">
@@ -61,10 +62,17 @@
   </div>
 
   <div class="mdl-mega-footer__bottom-section">
-    <div class="mdl-logo">cryptojournal</div>
+    <div class="mdl-logo">CJ</div>
     <ul class="mdl-mega-footer__link-list">
-      <li><a href="#">Help</a></li>
-      <li><a href="#">Privacy & Terms</a></li>
+      <li><a href="https://twitter.com/cryptojournal">Twitter</a></li>
+      <li><a href="https://github.com/bitcubate/cryptojournal">Source on Github</a></li>
+            <li><a href='javascript:window.location="https://cryptojournal.cf/stories/create?u="+encodeURIComponent(document.location)+"&n="+encodeURIComponent(document.title)+"&s="+encodeURIComponent(document.querySelector("meta[name=description]").content)'>Bookmarklet (drag to bookmarks)</a></li>
+      {{if .meta_rss }} |
+      <li><a href="{{ .meta_rss }}">RSS</a></li>
+      {{ end }}
     </ul>
+
+ 
+  This site uses <a href="https://golang.org">Go</a> hosted on a Google Compute Engine Instance {{  .meta_foot }}.
   </div>
 
