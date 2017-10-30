@@ -5,13 +5,15 @@
 }
 </style>
 
-<div class="demo-layout-waterfall mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header mdl-layout__header--waterfall">
+<div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header  mdl-layout__header--scroll">
     <!-- Top row, always visible -->
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title"><a href="/">CJ</a></span>
       <div class="mdl-layout-spacer"></div>
+
+
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
                   mdl-textfield--floating-label mdl-textfield--align-right">
         <label class="mdl-button mdl-js-button mdl-button--icon"
@@ -19,10 +21,19 @@
           <i class="material-icons">search</i>
         </label>
         <div class="mdl-textfield__expandable-holder">
-          <input class="mdl-textfield__input" type="text" name="sample"
+            <form action="/stories" method="get">
+
+          <input class="mdl-textfield__input" type="text" name="q"
                  id="waterfall-exp">
+                     </form>
+
         </div>
       </div>
+
+
+
+
+
     </div>
     <!-- Bottom row, not visible on scroll -->
     <div class="mdl-layout__header-row">
@@ -98,17 +109,7 @@
       
     </li>
 
-    <li class="search">
-    <a class="show" href="#" data-show=".search_form" title="Search for links about the Cryptocurrency and Blockchain World">
-    <img src="/assets/images/app/search.png" class="search_image">
-    </a>
-    </li>
-    
-    <li class="search_form hidden">
-    <form action="/stories" method="get">
-      <input name="q" type="text" placeholder="Search..." class="header_search">
-    </form>
-    </li>
+
   
   </ul>
   
