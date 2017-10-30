@@ -13,7 +13,6 @@
 
         <td class="mdl-data-table__cell--non-numeric">
 
-    <div class="voting">
       {{ if .currentUser.Anon }}
       <a href="/users/create" class="vote disabled" rel=nofollow>▲</a>
       <a href="{{.story.CanonicalURL}}" class="points">{{.story.Points}}</a>
@@ -23,15 +22,13 @@
       <a href="{{.story.CanonicalURL}}" class="points">{{.story.Points}}</a>
       <a href="/stories/{{.story.ID}}/downvote" method="post" class="vote {{if not .currentUser.CanDownvote }}disabled{{ end }}" rel=nofollow>▼</a>
       {{ end }}
-    </div>
 
       </td>
 
         <td class="mdl-data-table__cell--non-numeric">
 
 
-    <h3><a href="{{.story.PrimaryURL}}" class="name">{{.story.NameDisplay}}</a></h3>
-    <div class="metadata">
+    <h4><a href="{{.story.PrimaryURL}}" class="name">{{.story.NameDisplay}}</a></h4>
       <ul class="tags">
           {{ range .story.Tags }}
             <li><a href="/stories?q=%23{{.}}">{{.}}</a></li>
@@ -47,7 +44,6 @@
         
         <a href="/users/{{.story.UserID}}" class="user">{{.story.UserName}}</a>
         <a href="{{.story.CanonicalURL}}" class="date">{{timeago .story.CreatedAt}}</a>
-    </div>
 
       </td>
 
