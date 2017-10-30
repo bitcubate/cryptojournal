@@ -66,6 +66,15 @@
       <a class="mdl-navigation__link" href="/stories">New</a>
       <a class="mdl-navigation__link" href="/comments">Talk</a>
       <a class="mdl-navigation__link" href="/stories/upvoted">Upvoted</a>
+
+  {{ if .tags }}
+    {{ range .tags }}
+    <a class="mdl-navigation__link" href="/stories?q=%23{{.}}">{{.}}</a>
+    {{ end }}
+  {{ end }}
+  
+
+
       </nav>
     </div>
 
@@ -108,7 +117,6 @@
   
   
 
-  
 
   
   
