@@ -1,5 +1,9 @@
 /* CSS Styles for stories */
 
+.full-width {
+    width: 100%;
+}
+
 .stories {
     list-style: none;
     margin: 0;
