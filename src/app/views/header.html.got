@@ -107,13 +107,7 @@
   
   
   
-  {{ if .tags }}
-  <ul class="tags">
-    {{ range .tags }}
-    <li><a href="/stories?q=%23{{.}}">{{.}}</a></li>
-    {{ end }}
-  </ul>
-  {{ end }}
+
   
 
   
