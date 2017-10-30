@@ -67,7 +67,7 @@ func TweetStory(story *stories.Story) {
 
 	tweet := fmt.Sprintf("%s #cryptojournal %s", story.Name, url)
 
-	// If the tweet will be too long for twitter, use GN url
+	// If the tweet will be too long for twitter, use CJ url
 	if len(tweet) > 140 {
 		tweet = fmt.Sprintf("%s #cryptojournal %s", story.Name, baseURL+story.ShowURL())
 	}

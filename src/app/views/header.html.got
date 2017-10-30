@@ -36,12 +36,12 @@
     <li class="long"><a href="/">Crypto Journal</a></li>
     <li><a title="Crypto Code Packages" href="/stories/code">Code</a></li>
     <li><a title="Videos about the Cryptocurrency and Blockchain World" href="/stories?q=Video:">Videos</a></li>
-    <li><a title="Jobs for Go programmers" href="/stories?q=Hiring:">Jobs</a></li>
-    <li><a title="Events for Go programmers" href="/stories?q=Event:">Events</a></li>
-    <li><a title="Books for Go programmers" href="/stories?q=Book:">Books</a></li>
-    <li><a title="Podcasts and Screencasts about Go" href="/stories?q=Cast:">Casts</a></li>
+    <li><a title="Crypto Jobs" href="/stories?q=Hiring:">Jobs</a></li>
+    <li><a title="Crypto Events" href="/stories?q=Event:">Events</a></li>
+    <li><a title="Books about Crypto" href="/stories?q=Book:">Books</a></li>
+    <li><a title="Podcasts and Screencasts about the Crypto World" href="/stories?q=Cast:">Casts</a></li>
     <li><a title="Newest articles about the Cryptocurrency and Blockchain World" href="/stories">New</a></li>
-    <li><a title="A place to show GN your stuff" href="/stories?q=Show:">Show</a></li>
+    <li><a title="A place to show CJ your stuff" href="/stories?q=Show:">Show</a></li>
     <li><a title="Stories you have upvoted in the past" href="/stories/upvoted">Upvoted</a></li>
     
     <li><a href="/comments">Talk</a></li>
