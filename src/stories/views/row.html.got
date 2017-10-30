@@ -1,4 +1,6 @@
-<li class="story {{ if gt .story.NegativePoints 0 }}minus{{.story.NegativePoints}}{{end}}">
+
+ <tr>
+      <td class="mdl-data-table__cell--non-numeric story {{ if gt .story.NegativePoints 0 }}minus{{.story.NegativePoints}}{{end}}">
   <a href="{{.story.CanonicalURL}}" class="bubble"><b class="bubble-tick"></b>{{.story.CommentCountDisplay}}</a> 
   {{ if .currentUser.Admin }}
     <a href="/stories/{{.story.ID}}/update" class="button small grey flag">edit</a>
@@ -6,6 +8,11 @@
   {{ if .currentUser.CanFlag }}
     <a href="/stories/{{.story.ID}}/flag" class="button small grey flag" method="post">flag</a>
   {{end }}
+
+  </td>
+
+        <td class="mdl-data-table__cell--non-numeric">
+
     <div class="voting">
       {{ if .currentUser.Anon }}
       <a href="/users/create" class="vote disabled" rel=nofollow>▲</a>
@@ -17,6 +24,12 @@
       <a href="/stories/{{.story.ID}}/downvote" method="post" class="vote {{if not .currentUser.CanDownvote }}disabled{{ end }}" rel=nofollow>▼</a>
       {{ end }}
     </div>
+
+      </td>
+
+        <td class="mdl-data-table__cell--non-numeric">
+
+
     <h3><a href="{{.story.PrimaryURL}}" class="name">{{.story.NameDisplay}}</a></h3>
     <div class="metadata">
       <ul class="tags">
@@ -35,4 +48,7 @@
         <a href="/users/{{.story.UserID}}" class="user">{{.story.UserName}}</a>
         <a href="{{.story.CanonicalURL}}" class="date">{{timeago .story.CreatedAt}}</a>
     </div>
-</li>
+
+      </td>
+
+    </tr>

@@ -1,4 +1,12 @@
-<ul class="stories">
+<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Rank</th>
+      <th class="mdl-data-table__cell--non-numeric">Title</th>
+      <th class="mdl-data-table__cell--non-numeric">Comments</th>
+    </tr>
+  </thead>
+  <tbody>
   {{ $0 := . }}
   {{ range .stories }}
      {{ set $0 "story" . }}
@@ -7,4 +15,11 @@
   {{ if eq (len .stories) 100 }}
   <li class="more_link story"><a href="?page={{add .page 1 }}">Show More</a></li>
   {{ end }}
-</ul>
+  </tbody>
+</table>
+
+
+
+
+
+     
