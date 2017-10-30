@@ -7,7 +7,7 @@
       {{ else }}
         <h3 class="hidden">Crypto Journal, the latest news about the Cryptocurrency and Blockchain World</h3>
         <span class="short">Crypto Journal {{ if .userCount}}- {{.userCount}} users online{{end}}</span>
-        <span class="long">The latest news about Go programming {{ if .userCount}} - {{.userCount}} users online{{end}}</span>
+        <span class="long">The latest news about the Cryptocurrency and Blockchain World {{ if .userCount}} - {{.userCount}} users online{{end}}</span>
       {{ end }}
     </li>
         
