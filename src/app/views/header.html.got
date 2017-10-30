@@ -10,10 +10,15 @@
     <!-- Top row, always visible -->
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title"><a href="/">CJ</a></span>
+      <span class="mdl-layout-title"><a href="/">CJ</a> Crypto Journal, curated links about the Cryptocurrency and Blockchain World</span>
       <div class="mdl-layout-spacer"></div>
 
-
+      {{ if and .currentUser (not .currentUser.Anon) }}
+        <a href="/users/{{.currentUser.ID}}">{{.currentUser.Name}} ({{.currentUser.Points}}) {{ if .userCount}} - {{.userCount}} users online{{end}}</a>
+      {{ else }}
+        <span class="short">Crypto Journal {{ if .userCount}}- {{.userCount}} users online{{end}}</span>
+      {{ end }}
+  
 
     
    
@@ -97,29 +102,8 @@
 
 
 
-<nav alt="Crypto Journal, curated links about the Cryptocurrency and Blockchain World">
-  <ul class="title">
-  
-    <li class="user_badge" alt="Crypto Links">
-      {{ if and .currentUser (not .currentUser.Anon) }}
-        <a href="/users/{{.currentUser.ID}}">{{.currentUser.Name}} ({{.currentUser.Points}}) {{ if .userCount}} - {{.userCount}} users online{{end}}</a>
-      {{ else }}
-        <h3 class="hidden">Crypto Journal, the latest news about the Cryptocurrency and Blockchain World</h3>
-        <span class="short">Crypto Journal {{ if .userCount}}- {{.userCount}} users online{{end}}</span>
-        <span class="long">The latest news about the Cryptocurrency and Blockchain World {{ if .userCount}} - {{.userCount}} users online{{end}}</span>
-      {{ end }}
-    </li>
-        
-    <li class="site">
-      <a href="/" title="Crypto Journal, Curated links about the Cryptocurrency and Blockchain World">
-        <span class=" logo" alt="Crypto Journal News letter and news articles about the Cryptocurrency and Blockchain World">CJ</span>
-      </a>
-      
-    </li>
 
 
-  
-  </ul>
   
   
   
@@ -131,8 +115,7 @@
   </ul>
   {{ end }}
   
-  <div class="clear"></div>
-</nav>
+
   
   
 
