@@ -22,11 +22,13 @@
 
 
 </div>
+
+
+
+    <footer class="mdl-mega-footer">
+    {{ template "app/views/footer.html.got" . }}
+    </footer>
   </main>
 </div>
-
-
-    {{ template "app/views/footer.html.got" . }}
-
 </body>
 </html>

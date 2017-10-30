@@ -67,7 +67,7 @@
       <li><a href="https://twitter.com/cryptojournal">Twitter</a></li>
       <li><a href="https://github.com/bitcubate/cryptojournal">Source on Github</a></li>
             <li><a href='javascript:window.location="https://cryptojournal.cf/stories/create?u="+encodeURIComponent(document.location)+"&n="+encodeURIComponent(document.title)+"&s="+encodeURIComponent(document.querySelector("meta[name=description]").content)'>Bookmarklet (drag to bookmarks)</a></li>
-      {{if .meta_rss }} |
+      {{if .meta_rss }}
       <li><a href="{{ .meta_rss }}">RSS</a></li>
       {{ end }}
     </ul>
