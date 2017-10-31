@@ -44,7 +44,20 @@
 </div>
 </div>
 <div class="mdl-mega-footer__bottom-section">
+<ul class="mdl-mega-footer__link-list">
+
+<li><a href="bitcoin:15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC 15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF</a></li>
+<li><a href="ethereum:0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">ETH 0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af</a></li>
+<li><script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amp;output=BTC"><img src="https://shapeshift.io/images/shifty/xs_dark_altcoins.png" class="ss-button"></a></li>
+
+<li><script type="text/javascript"> function open_widget(a, e) { e.preventDefault(); var link = a.href; window.open(link, 'Changelly', 'width=600,height=470,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0'); return false; } </script> <a onclick="open_widget(this, event);" href="https://changelly.com/widget/v1?auth=email&from=LTC&to=BTC&merchant_id=1f714a44e651&address=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amount=1&ref_id=1f714a44e651&color=0003ff"> <img src="https://changelly.com/pay_button.png" alt="Changelly" /> </a></li>
+</ul>
 <div class="mdl-logo">CJ</div>
+
+
+
+
+
 <ul class="mdl-mega-footer__link-list">
 <li><a href="https://twitter.com/cryptojournal">Twitter</a></li>
 <li><a href="https://github.com/bitcubate/cryptojournal">Source on Github</a></li>
@@ -55,11 +68,7 @@
 <li>Powered by <a href="https://golang.org">Go (Golang)</a> on Google Infra</li>
 
 
-<li><a href="bitcoin:15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC 15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF</a></li>
-<li><a href="ethereum:0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">ETH 0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af</a></li>
-<li><script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amp;output=BTC"><img src="https://shapeshift.io/images/shifty/xs_dark_altcoins.png" class="ss-button"></a></li>
 
-<li><script type="text/javascript"> function open_widget(a, e) { e.preventDefault(); var link = a.href; window.open(link, 'Changelly', 'width=600,height=470,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0'); return false; } </script> <a onclick="open_widget(this, event);" href="https://changelly.com/widget/v1?auth=email&from=LTC&to=BTC&merchant_id=1f714a44e651&address=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amount=1&ref_id=1f714a44e651&color=0003ff"> <img src="https://changelly.com/pay_button.png" alt="Changelly" /> </a></li>
 
 </ul>
 <!--{{  .meta_foot }} -->
