@@ -37,6 +37,14 @@
 <li><a href="https://blockchain.info/address/15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC</a></li>
 <li><a href="https://etherscan.io/address/0x4F103DE247Ab537F2Ad1D333ca891cEd84BED5af">ETH</a></li>
 <li><script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amp;output=BTC"><img src="https://shapeshift.io/images/shifty/xs_dark_altcoins.png" class="ss-button"></a></li>
+
+<li><link rel="stylesheet" href="https://changelly.com/widget.css"/> <a id="changellyButton" href="https://changelly.com/widget/v1?auth=email&from=ETH&to=BTC&merchant_id=1f714a44e651&address=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amount=1&ref_id=1f714a44e651&color=1800ff" target="_blank"> <img src="https://changelly.com/pay_button.png" /> </a> <div id="changellyModal"> <div class="changellyModal-content"> <span class="changellyModal-close">x</span> <iframe src="https://changelly.com/widget/v1?auth=email&from=ETH&to=BTC&merchant_id=1f714a44e651&address=15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF&amount=1&ref_id=1f714a44e651&color=1800ff" width="600" height="500" class="changelly" scrolling="no" style="overflow-y: hidden; border: none" > Can't load widget </iframe> </div> <script type="text/javascript"> var changellyModal = document.getElementById('changellyModal'); var changellyButton = document.getElementById('changellyButton'); var changellyCloseButton = document.getElementsByClassName('changellyModal-close')[0]; changellyCloseButton.onclick = function() { changellyModal.style.display = 'none'; }; changellyButton.onclick = function widgetClick(e) { e.preventDefault(); changellyModal.style.display = 'block'; }; </script> </div>
+</li>
+
+
+
+
+
 </ul>
 </div>
 </div>
