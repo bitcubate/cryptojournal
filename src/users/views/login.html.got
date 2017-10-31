@@ -27,11 +27,11 @@ color: #fff;
 
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-width">
 <input class="mdl-textfield__input full-width" type="text" name="email" id="email">
-<label class="mdl-textfield__label full-width" for="email">email</label>
+<label class="mdl-textfield__label full-width" for="email">E-mail / Username</label>
 </div>
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-width">
 <input class="mdl-textfield__input full-width" type="password" name="password" id="password">
-<label class="mdl-textfield__label full-width" for="password">password</label>
+<label class="mdl-textfield__label full-width" for="password">Password</label>
 </div>
 </div>
 <div class="mdl-card__actions mdl-card--border">

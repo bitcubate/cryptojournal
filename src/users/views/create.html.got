@@ -34,15 +34,15 @@ color: #fff;
 <p>Already have a username? You can login <a href="/users/login">here</a>.</p>
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-width">
 <input class="mdl-textfield__input full-width" type="text" id="name" name="name">
-<label class="mdl-textfield__label full-width" for="name">name</label>
+<label class="mdl-textfield__label full-width" for="name">Name</label>
 </div>
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-width">
 <input class="mdl-textfield__input full-width" type="text" name="email" id="email">
-<label class="mdl-textfield__label full-width" for="email">email</label>
+<label class="mdl-textfield__label full-width" for="email">E-mail</label>
 </div>
 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label full-width">
 <input class="mdl-textfield__input full-width" type="password" name="password" id="password">
-<label class="mdl-textfield__label full-width" for="password">password</label>
+<label class="mdl-textfield__label full-width" for="password">Password</label>
 </div>
 </div>
 <div class="mdl-card__actions mdl-card--border">
