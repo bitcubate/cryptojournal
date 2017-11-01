@@ -1,10 +1,16 @@
-<article class="comments narrow">
-<ul class="comments">
+<table class="mdl-data-table mdl-js-data-table  mdl-shadow--2dp full-width" >
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">User</th>
+      <th class="mdl-data-table__cell--non-numeric full-width">Comment</th>
+    </tr>
+  </thead>
+  <tbody>
   {{ $0 := . }}
   {{ range $i,$m := .comments }}
      {{ set $0 "i" $i }}
      {{ set $0 "comment" $m }}
      {{ template "comments/views/comment.html.got" $0 }}
   {{ end }}
-</ul>
-</article>
+  </tbody>
+</table>  
