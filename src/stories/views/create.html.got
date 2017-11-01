@@ -1,5 +1,7 @@
  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
+ <div class="mdl-layout-spacer"></div>
+
+    <div class="mdl-cell mdl-cell--6-col">
 
 
   <!-- Event card -->
@@ -61,6 +63,8 @@
 </div>
 
 </div>
+<div class="mdl-layout-spacer"></div>
+
 </div>
 
 
