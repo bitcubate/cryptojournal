@@ -64,6 +64,14 @@ id="waterfall-exp">
 <a class="mdl-navigation__link" href="/users/login">Log in</a>
 {{ else if not .hideSubmit }}
 <a class="mdl-navigation__link" href="/stories/create" title="Submit links about the Cryptocurrency and Blockchain World">Submit</a>
+
+    {{ if .currentUser.Admin }}
+     <a class="mdl-navigation__link" href="/users/{{.user.ID}}/update">edit</a>
+    {{end }}
+    {{ if .currentUser  }}<!-- // eq .currentUser.ID .user.ID -->
+      <a class="mdl-navigation__link" href="/users/logout" method="post">Logout</a>
+    {{ end }}
+
 {{ end }}
 <a class="mdl-navigation__link" href="/stories">Donate Altcoins</a>
 <a class="mdl-navigation__link" href="/stories">New</a>
