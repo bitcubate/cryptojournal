@@ -1,5 +1,6 @@
   
   <div class="name">
+  <img src="{{GetImg("maxice@gmail.com")}}" />
     <h1>{{.user.Name}} ({{.user.Points}})</h1>
     <p>Signed up {{timeago .user.CreatedAt}}</p>
   </div>
