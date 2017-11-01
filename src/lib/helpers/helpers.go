@@ -27,7 +27,7 @@ func GetImg(email string) string {
 
 	finalBytes := h.Sum(nil)
 
-	finalString := "http://www.gravatar.com/avatar/" + hex.EncodeToString(finalBytes) + "?d=retro"
+	finalString := "http://www.gravatar.com/avatar/" + hex.EncodeToString(finalBytes) + "?d=retro?s=256"
 
 	return finalString
 }
