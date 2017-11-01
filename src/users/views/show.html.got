@@ -20,18 +20,23 @@
 </section>
 
 
+
+<table class="mdl-data-table mdl-js-data-table  mdl-shadow--2dp full-width" >
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Comments</th>
+      <th class="mdl-data-table__cell--non-numeric">Rank</th>
+      <th class="mdl-data-table__cell--non-numeric full-width">Story</th>
+    </tr>
+  </thead>
+  <tbody>
 {{ $0 := . }}
-
-<section class="container  user_activity">
-
-  <div class="column">
-  <ul class="stories">
     {{ range .stories }}
        {{ set $0 "story" . }}
        {{ template "stories/views/row.html.got" $0 }}
     {{ end }}
-  </ul>
-  </div>  
+  </tbody>
+</table>  
   
   <div class="column">
   <ul class="comments">
