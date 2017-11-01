@@ -1,8 +1,8 @@
   
   <div class="name">
 
-
-  <img src="{{gexxxtimg .user.Email}}" />
+  
+  <img src="{{getimg .user.Email}}" />
     <h1>{{.user.Name}} ({{.user.Points}})</h1>
     <p>Signed up {{timeago .user.CreatedAt}}</p>
   </div>
