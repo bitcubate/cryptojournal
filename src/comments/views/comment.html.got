@@ -26,12 +26,15 @@
             <td class="mdl-data-table__cell--non-numeric">
 
     
+    <div class="content">
     {{ markup .comment.Text }}
+    </div>
     
     
     {{ if .currentUser.CanComment }}
+    <div class="actions">
     {{ if and .story (not $owner) }}
-      <a href="#" class="button" data-show="#comment{{.comment.ID}} .reply-form">reply</a>
+      <a href="#" class="show button small grey reply" data-show="#comment{{.comment.ID}} .reply-form">reply</a>
     {{ end }}
     
     {{ if (.currentUser.Admin) }}
@@ -45,7 +48,9 @@
     {{ end }}
     
     {{ if and .story (not $owner) }}
+      <div class="reply-form hidden">
       {{ template "comments/views/form_embed.html.got" . }}
+       </div>
     {{ end }}
     
     {{ $0 := . }}
