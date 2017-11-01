@@ -47,14 +47,21 @@
           {{ template "comments/views/form_embed.html.got" . }}
          {{ end }}
      
-         <ul class="comments">
-           {{ $0 := . }}
+<table class="mdl-data-table mdl-js-data-table  mdl-shadow--2dp full-width" >
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">User</th>
+      <th class="mdl-data-table__cell--non-numeric full-width">Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+             {{ $0 := . }}
            {{ range .comments }}
               {{ set $0 "comment" . }}
               {{ template "comments/views/comment.html.got" $0 }}
            {{ end }}
-         </ul>
-         
+  </tbody>
+</table>      
          
          
          {{ if not .currentUser.CanComment }}
