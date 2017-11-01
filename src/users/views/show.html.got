@@ -1,6 +1,5 @@
  <div class="mdl-grid">
-    <div class="mdl-layout-spacer"></div>
-    <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-cell mdl-cell--3-col">
 
   <!-- Image card -->
 <style>
@@ -27,6 +26,7 @@
     <span class="demo-card-image__filename"></span>
   </div>
 </div>
+    <div class="mdl-cell mdl-cell--3-col">
 
 
 
