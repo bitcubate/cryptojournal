@@ -1,13 +1,3 @@
-<section class="user padded">
-
-  <div class="actions">
-    {{ if .currentUser.Admin }}
-     <a href="/users/{{.user.ID}}/update" class="button grey">edit</a>
-    {{end }}
-    {{ if .currentUser  }}<!-- // eq .currentUser.ID .user.ID -->
-      <a class="button grey" href="/users/logout" method="post">Logout</a>
-    {{ end }}
-  </div>
   
   <div class="name">
     <h1>{{.user.Name}} ({{.user.Points}})</h1>
@@ -42,9 +32,8 @@
 <table class="mdl-data-table mdl-js-data-table  mdl-shadow--2dp full-width" >
   <thead>
     <tr>
-      <th class="mdl-data-table__cell--non-numeric">Comments</th>
-      <th class="mdl-data-table__cell--non-numeric">Rank</th>
-      <th class="mdl-data-table__cell--non-numeric full-width">Story</th>
+      <th class="mdl-data-table__cell--non-numeric">User</th>
+      <th class="mdl-data-table__cell--non-numeric full-width">Comment</th>
     </tr>
   </thead>
   <tbody>
