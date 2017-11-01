@@ -58,6 +58,8 @@ func SetupView() {
 	view.Helpers["markup"] = helpers.Markup
 	view.Helpers["timeago"] = helpers.TimeAgo
 	view.Helpers["root_url"] = helpers.RootURL
+	view.Helpers["GetImg"] = helpers.GetImg
+
 
 	view.Production = config.Production()
 	err := view.LoadTemplates()
