@@ -1,16 +1,58 @@
   
-  <div class="name">
+
+
+  <!-- Event card -->
+<style>
+.demo-card-event.mdl-card {
+  width: 256px;
+  height: 256px;
+  background: #3E4EB8;
+    background: url('{{getimg .user.Email}}') center / cover;
 
   
-  <img src="{{getimg .user.Email}}" />
-    <h1>{{.user.Name}} ({{.user.Points}})</h1>
-    <p>Signed up {{timeago .user.CreatedAt}}</p>
-  </div>
+}
+.demo-card-event > .mdl-card__actions {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.demo-card-event > .mdl-card__title {
+  align-items: flex-start;
+}
+.demo-card-event > .mdl-card__title > h4 {
+  margin-top: 0;
+}
+.demo-card-event > .mdl-card__actions {
+  display: flex;
+  box-sizing:border-box;
+  align-items: center;
+}
+.demo-card-event > .mdl-card__actions > .material-icons {
+  padding-right: 10px;
+}
+.demo-card-event > .mdl-card__title,
+.demo-card-event > .mdl-card__actions,
+.demo-card-event > .mdl-card__actions > .mdl-button {
+  color: #fff;
+}
+</style>
 
-  <div class="profile">
-    {{ sanitize .user.Summary }}
+<div class="demo-card-event mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h4>
+      {{.user.Name}} ({{.user.Points}})
+    </h4>
   </div>
-</section>
+  <div class="mdl-card__actions mdl-card--border">
+    <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Signed up {{timeago .user.CreatedAt}}
+          {{ sanitize .user.Summary }}
+
+    </a>
+    <div class="mdl-layout-spacer"></div>
+    <i class="material-icons">event</i>
+  </div>
+</div>
+
+
 
 <h3>Stories</h3>
 
