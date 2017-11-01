@@ -4,9 +4,9 @@
 </head>
 <body>
 <article>
-<h1>Crypto Journal Weekly Digest</h1>
+<h3>Crypto Journal Weekly Digest</h3>
 
-<h2>Popular Stories</h2>
+<h4>Popular Stories</h4>
 {{ range .stories }}
 <div class="story">
   <h3><a href="https://cryptojournal.cf/{{.URLShow}}">{{.Name}}</a></h3>
@@ -20,7 +20,7 @@
 </div>
 {{ end }}
 
-<h2>Jobs</h2>
+<h4>Jobs</h4>
 {{ range .jobs }}
 <div class="job story">
   <h3><a href="https://cryptojournal.cf/{{.URLShow}}">{{.Name}}</a></h3>

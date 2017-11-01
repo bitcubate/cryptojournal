@@ -2,7 +2,7 @@
 <section class="padded">
 <form method="post" class="resource-update-form">
    
-    <h1>Submit Story</h1>
+    <h3>Submit Story</h3>
     <p>Please read the <a href="/stories/1">contributor guidelines</a> before submitting stories.</p>
     <div class="wide-fields">
     {{ field "Url" "url" .story.URL "class=active_url_field autofocus"}}

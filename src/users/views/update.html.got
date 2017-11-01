@@ -1,4 +1,4 @@
 <section class="padded">
-<h1>Update User</h1>
+<h3>Update User</h3>
 {{ template "users/views/form.html.got" . }}
 </section>

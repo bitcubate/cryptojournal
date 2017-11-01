@@ -29,7 +29,7 @@ func TestMail(t *testing.T) {
 	email := New(recipient)
 	email.ReplyTo = "sender@example.com"
 	email.Subject = "sub"
-	email.Body = "<h1>Body</h1>"
+	email.Body = "<h3>Body</h3>"
 	Send(email, context)
 
 	// Try render

@@ -1,7 +1,7 @@
 <div class="mdl-mega-footer__middle-section">
 <div class="mdl-mega-footer__drop-down-section">
 <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-<h1 class="mdl-mega-footer__heading">Stories</h1>
+<h1 class="mdl-mega-footer__heading">Stories</h3>
 <ul class="mdl-mega-footer__link-list">
 <li><a href="/stories/code">Code</a></li>
 <li><a href="/stories?q=Video:">Videos</a></li>
@@ -12,7 +12,7 @@
 </div>
 <div class="mdl-mega-footer__drop-down-section">
 <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-<h1 class="mdl-mega-footer__heading">Media</h1>
+<h1 class="mdl-mega-footer__heading">Media</h3>
 <ul class="mdl-mega-footer__link-list">
 <li><a href="/stories?q=Cast:">Casts</a></li>
 <li><a href="/stories?q=Show:">Show</a></li>
@@ -22,7 +22,7 @@
 </div>
 <div class="mdl-mega-footer__drop-down-section">
 <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-<h1 class="mdl-mega-footer__heading">Latest</h1>
+<h1 class="mdl-mega-footer__heading">Latest</h3>
 <ul class="mdl-mega-footer__link-list">
 <li><a href="/stories?q=ANN:">ANN</a></li>
 <li><a href="/stories">New</a></li>
@@ -32,7 +32,7 @@
 </div>
 <div class="mdl-mega-footer__drop-down-section">
 <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
-<h1 class="mdl-mega-footer__heading">Hiring Fee / Donations</h1>
+<h1 class="mdl-mega-footer__heading">Hiring Fee / Donations</h3>
 <ul class="mdl-mega-footer__link-list">
 
 <li><a href="bitcoin:15EkVvg4njPqxAa5Az2dCRJFdqX7ohwMBF">BTC</a></li>

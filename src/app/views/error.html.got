@@ -1,5 +1,5 @@
 <section class="padded">
-      <h1>{{.title}}</h1>
+      <h3>{{.title}}</h3>
       <p>{{.message}}</p>
       {{ if .file }}
       <p>File:{{.file}}</p>
