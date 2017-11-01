@@ -1,3 +1,7 @@
+ <div class="mdl-grid">
+    <div class="mdl-layout-spacer"></div>
+    <div class="mdl-cell mdl-cell--4-col">
+
   <!-- Image card -->
 <style>
 .demo-card-image.mdl-card {
@@ -76,7 +80,9 @@
   </div>
 </div>
 
-
+</div>
+<div class="mdl-layout-spacer"></div>
+</div>
 
 <h3>Stories</h3>
 
