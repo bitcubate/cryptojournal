@@ -28,6 +28,8 @@
 </div>
 
 </div>
+<div class="mdl-layout-spacer"></div>
+
     <div class="mdl-cell mdl-cell--3-col">
 
 
@@ -83,7 +85,6 @@
 </div>
 
 </div>
-<div class="mdl-layout-spacer"></div>
 </div>
 
 <h3>Stories</h3>
