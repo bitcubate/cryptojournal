@@ -9,7 +9,8 @@
 .demo-card-event.mdl-card {
   width: 100%;
   height: 100%;
-  background: #C2185B;
+  background: #aaaaaa;
+  color: #777;
 
   
 }
